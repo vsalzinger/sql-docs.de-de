@@ -100,6 +100,16 @@ This is a desk
 (1 row(s) affected)  
 ```  
 
+ Das folgende Beispiel entfernt 0x0000 (char(0)) Zeichen.  
+  
+```sql  
+DECLARE @Test VARCHAR(50);
+
+SET @Test = 'Dies ist ' + char(0) + 'Test ' + char(0) + 'mit 0x0000 (char(0)) Zeichen!';
+
+SELECT replace(@Test COLLATE SQL_Latin1_General_CP1_CI_AS, char(0), ''); 
+GO  
+```  
   
 ## <a name="see-also"></a>Weitere Informationen finden Sie unter  
  [CONCAT &#40;Transact-SQL&#41;](../../t-sql/functions/concat-transact-sql.md)  
