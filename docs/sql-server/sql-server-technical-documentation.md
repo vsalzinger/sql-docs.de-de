@@ -123,7 +123,7 @@ SQL Server ist ein zentraler Bestandteil der Microsoft-Datenplattform. SQL Serve
 
 ## <a name="update-your-version-of-sql-server"></a>Aktualisieren Ihrer Version von SQL Server
 
-- Das[SQL Server-Update Center](https://msdn.microsoft.com/library/ff803383.aspx) enthält Links und Informationen für alle unterstützten Versionen.
+- Das [SQL Server-Update Center](https://msdn.microsoft.com/library/ff803383.aspx) enthält Links und Informationen für alle unterstützten Versionen.
 
 ## <a name="samples"></a>Beispiele
 
